@@ -1,0 +1,14 @@
+{
+    "output_file": "./other_model_results/generation/Deepseek-7b/xsum_generation_Deepseek-7b",
+    "dataset": "xsum",
+    "dataset_file": "./data/generation/Deepseek-7b/xsum_generation_Deepseek-7b",
+    "pct_words_masked": 0.3,
+    "mask_top_p": 1.0,
+    "span_length": 2,
+    "n_perturbations": 100,
+    "scoring_model_name": "gpt-neo-2.7B",
+    "mask_filling_model_name": "t5-3b",
+    "seed": 42,
+    "device": "cuda",
+    "cache_dir": "./models"
+}
