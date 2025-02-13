@@ -1,0 +1,14 @@
+{
+    "output_file": "./other_model_results/rewrite/gpt-3.5-turbo/xsum_rewrite_gpt-3.5-turbo",
+    "dataset": "xsum",
+    "dataset_file": "./data/rewrite/gpt-3.5-turbo/xsum_rewrite_gpt-3.5-turbo",
+    "pct_words_masked": 0.3,
+    "mask_top_p": 1.0,
+    "span_length": 2,
+    "n_perturbations": 100,
+    "scoring_model_name": "gpt-neo-2.7B",
+    "mask_filling_model_name": "t5-3b",
+    "seed": 42,
+    "device": "cuda",
+    "cache_dir": "./models"
+}
